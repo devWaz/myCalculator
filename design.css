@@ -28,16 +28,14 @@
 
 .button {
     border: #f38951 2px solid;
-    height: 65px;
-    width: 65px;
+    height: 4rem;
+    width: 4rem;
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: 45px;
-    
     margin: 10px;
     margin-top: 15px;
-    
     border-radius: 10px;
 }
 
