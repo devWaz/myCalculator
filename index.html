@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,90 +16,96 @@
     <div class="container">
         <div class="calculator">
             <div class="screen">
-                <p id="display" class="screenText" ></p>
+                <p id="display" class="screenText"></p>
             </div>
 
             <div class="buttons">
-            <div class="row">
-                <div class="col1">
-                    <button class="button" onclick="numOne()">1</button>
+                <div class="row">
+                    <div class="col1">
+                        <button class="button" onclick="numOne()">1</button>
+                    </div>
+
+                    <div class="col2">
+                        <button class="button" onclick="numTwo()">2</button>
+                    </div>
+
+                    <div class="col3">
+                        <button class="button" onclick="numThree()">3</button>
+                    </div>
+
+                    <div class="col4">
+                        <button class="button" onclick="addition">+</button>
+                    </div>
+
                 </div>
 
-                <div class="col2">
-                    <button class="button" onclick="numTwo()">2</button>
+                <div class="row">
+                    <div class="col1">
+                        <button class="button" onclick="numFour()">4</button>
+                    </div>
+
+                    <div class="col2">
+                        <button class="button" onclick="numFive()">5</button>
+                    </div>
+
+                    <div class="col3">
+                        <button class="button" onclick="numSix()">6</button>
+                    </div>
+
+                    <div class="col4">
+                        <button class="button">-</button>
+                    </div>
+
                 </div>
 
-                <div class="col3">
-                    <button class="button" onclick="numThree()">3</button>
+                <div class="row">
+                    <div class="col1">
+                        <button class="button" onclick="numSeven()">7</button>
+                    </div>
+
+                    <div class="col2">
+                        <button class="button" onclick="numEight()">8</button>
+                    </div>
+
+                    <div class="col3">
+                        <button class="button" onclick="numNine()">9</button>
+                    </div>
+
+                    <div class="col4">
+                        <button class="button">x</button>
+                    </div>
+
                 </div>
 
-                <div class="col4">
-                    <button class="button" onclick="addition">+</button>
+                <div class="row">
+                    <div class="col1">
+                        <button class="button" id="ac">AC</button>
+                    </div>
+
+                    <div class="col2">
+                        <button class="button" onclick="numZero()">0</button>
+                    </div>
+
+                    <div class="col3">
+                        <button class="button">=</button>
+                    </div>
+
+                    <div class="col4">
+                        <button class="button">/</button>
+                    </div>
+
                 </div>
-                            
+
+                <div class="row">
+                    <button class="button" id="delete">DEL</button>
+                </div>
+
             </div>
-
-            <div class="row">
-                <div class="col1">
-                    <button class="button" onclick="numFour()">4</button>
-                </div>
-
-                <div class="col2">
-                    <button class="button" onclick="numFive()">5</button>
-                </div>
-
-                <div class="col3">
-                    <button class="button" onclick="numSix()">6</button>
-                </div>
-
-                <div class="col4">
-                    <button class="button">-</button>
-                </div>
-                            
-            </div>
-
-            <div class="row">
-                <div class="col1">
-                    <button class="button" onclick="numSeven()">7</button>
-                </div>
-
-                <div class="col2">
-                    <button class="button" onclick="numEight()">8</button>
-                </div>
-
-                <div class="col3">
-                    <button class="button" onclick="numNine()">9</button>
-                </div>
-
-                <div class="col4">
-                    <button class="button">x</button>
-                </div>
-                            
-            </div>
-
-            <div class="row">
-                <div class="col1">
-                    <button class="button">C</button>
-                </div>
-
-                <div class="col2">
-                    <button class="button" onclick="numZero()">0</button>
-                </div>
-
-                <div class="col3">
-                    <button class="button">=</button>
-                </div>
-
-                <div class="col4">
-                    <button class="button">/</button>
-                </div>
-                            
-            </div>
-        </div>
         </div>
         <p id="hey">@heyFawaz</p>
     </div>
 
     <script src="index.js"></script>
 </body>
+
 </html>
