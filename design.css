@@ -1,5 +1,4 @@
 .calculator {
-    height: 600px;
     width: 400px;
     background-color: #c8563e;
     margin: auto;
@@ -30,15 +29,15 @@
 .button {
     border: #f38951 2px solid;
     height: 65px;
+    width: 65px;
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: 45px;
-    width: 65px;
+    
     margin: 10px;
     margin-top: 15px;
-    padding-left: -10px;
-    padding-right: -10px;
+    
     border-radius: 10px;
 }
 
