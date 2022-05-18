@@ -1,9 +1,8 @@
 .calculator {
-    width: 25rem;
+    width: 21rem;
     background-color: #c8563e;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
     border: #f38951 5px solid;
     border-radius: 10px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.30)
@@ -11,17 +10,18 @@
 
 .screen {
     border: #f38951 2px solid;
-    width: 21rem;
-    margin-top: 30px;
-    height: 100px;
+    width: 18rem;
+    height: 5rem;
     border-radius: 10px;
-    margin-left: 30px;
-    margin-bottom: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid blue;
 }
 
 #buttons {
-    margin-left: 1.8rem;
-    margin-top: 0.5rem;
+    width: 18rem;
+    margin: auto;
 }
 
 .row {
@@ -29,8 +29,8 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
-    width: 21rem;
+    margin-bottom: .5rem;
+    width: 18rem;
 }
 
 .button {
@@ -47,20 +47,18 @@
 
 #delete {
     width: 12rem;
-    margin-left: 5rem;
+    margin:auto;
+    margin-bottom: 1rem;
 }
 
 .screenText {
-    height: 65px;
     text-align: center;
     color: white;
     font-weight: bolder;
     font-size: 55px;
     margin: 10px;
-    margin-top: 15px;
-    padding-left: -10px;
-    padding-right: -10px;
     border-radius: 10px;
+    border: 1px solid red;
 }
 
 button:hover {
@@ -79,4 +77,16 @@ button:hover {
 
 #multiply {
     padding-top: 10px;
+}
+
+@media screen and (max-width: 320px) {
+.calculator{
+    width: 17rem;
+    margin: auto;
+    }
+
+.screen {
+    border: #f38951 2px solid;
+    width: 15rem;
+    }
 }
