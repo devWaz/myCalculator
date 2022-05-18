@@ -16,7 +16,6 @@
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    border: 1px solid blue;
 }
 
 #buttons {
@@ -47,7 +46,7 @@
 
 #delete {
     width: 12rem;
-    margin:auto;
+    margin: auto;
     margin-bottom: 1rem;
 }
 
@@ -57,8 +56,6 @@
     font-weight: bolder;
     font-size: 55px;
     margin: 10px;
-    border-radius: 10px;
-    border: 1px solid red;
 }
 
 button:hover {
@@ -79,14 +76,40 @@ button:hover {
     padding-top: 10px;
 }
 
+
+/* Mobile View */
 @media screen and (max-width: 320px) {
-.calculator{
-    width: 17rem;
-    margin: auto;
+    .calculator {
+        width: 17rem;
+        margin: auto;
+        margin-top: 1.5rem;
     }
 
-.screen {
-    border: #f38951 2px solid;
-    width: 15rem;
+    .screen {
+        width: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    .screenText {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    .row {
+        justify-content: space-between;
+        width: 15rem;
+        margin-left: 1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .button {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 40px;
+        
+    }
+
+    #ac {
+        font-size: 25px;
     }
 }
