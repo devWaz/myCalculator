@@ -14,8 +14,8 @@
     height: 5rem;
     border-radius: 10px;
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 #buttons {
@@ -32,6 +32,14 @@
     width: 18rem;
 }
 
+.row1{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
 .button {
     border: #f38951 2px solid;
     height: 4rem;
@@ -42,6 +50,7 @@
     font-size: 45px;
     border-radius: 10px;
     background-color: #c8563e;
+    margin-bottom: .5rem;
 }
 
 #delete {
@@ -95,7 +104,7 @@ button:hover {
         margin: 10px;
     }
 
-    .row {
+    .row1 {
         justify-content: space-between;
         width: 15rem;
         margin-left: 1rem;
@@ -105,8 +114,7 @@ button:hover {
     .button {
         height: 3.5rem;
         width: 3.5rem;
-        font-size: 40px;
-        
+        font-size: 40px; 
     }
 
     #ac {
